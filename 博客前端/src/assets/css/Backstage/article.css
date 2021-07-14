@@ -1,0 +1,122 @@
+ #article{
+    position: relative;
+    width: 130%;
+    margin-top: 50px;
+    background-color: red;
+    margin-left: -15%;
+}
+.ar-left{
+    width: 70%;
+    height: 900px;
+    float: left;
+    margin-right: 3%;
+}
+.ar-left>h3{
+    text-align: left;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.ar-left>input{
+
+    width: 100%;
+    height: 25px;
+    margin-top: 5%;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 20px;
+}
+.ar-left>button{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: #467b96;
+    color: white;
+    border: none;
+    left: 63%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+  /* .ql-toolbar.ql-snow{
+  
+
+  } */
+
+  .quill-editor{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 40px;
+  } 
+
+/* 右边 */
+.ar-right{
+    width: 27%;
+    /* height: 300px; */
+    /* background-color: rgb(110, 110, 233); */
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+
+.ar-top{
+    width: 100%;
+    height: 200px;
+    /* background-color: pink; */
+    margin-bottom: 15%;
+    overflow:auto;
+}
+/* 隐藏滚动条 */
+.ar-top::-webkit-scrollbar {display:none;}
+
+.ar-top>h4{
+    text-align: left;
+    color: black;
+    margin-bottom: 20px;
+}
+.ar-top>p{
+    text-align: left;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 15px;
+}
+.ar-top li{
+    height: 20px;
+    background-color: #cfdadd;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    line-height: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 13px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.zb{
+    margin-left: 5px;
+}
+.fo{
+    text-align: left;
+
+}
+.fo>h4{
+    color: black;
+}
+.fo>p{
+    margin-top: 20px;
+}
+.fo span{
+    margin-left: 10px;
+    color: #ccc;
+}
+.one{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-weight: bold;
+    margin-top: 17px;
+}

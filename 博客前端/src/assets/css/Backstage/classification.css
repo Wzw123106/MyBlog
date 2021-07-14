@@ -1,0 +1,162 @@
+#clmment{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    /* background-color: red; */
+    /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+    -ms-overflow-style:none;
+    /*火狐下隐藏滚动条*/
+    overflow:-moz-scrollbars-none;
+}
+
+/* 谷歌适用 */
+::-webkit-scrollbar{
+    display:none;
+}
+
+
+.cl-body{
+    width: 100%;
+    height: 70%;
+    /* background-color: pink; */
+    margin-top: 50px;
+}
+.cl-body>h3{
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+.cl-body>h3>.xz{
+    background-color: #e9e9e6;
+    width: 50px;
+    color: #467b96;
+  
+    font-weight: bold;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cl-body>h3>.xz:hover{
+    color:#499bc3;
+}
+.cl-body>.co-wz{
+    width: 100%;
+    /* height: 80%; */
+    background-color: white;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.co-wz>.am{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    line-height: 50px;
+}
+.cl-body span{
+    float: left;
+    margin-left: 110px;
+    margin-right: 76px;
+    font-weight: bold;
+    color: black;
+}
+.co-wz>ul{
+    width: 95%;
+    /* height: 85%; */
+    /* background-color: blanchedalmond; */
+    /* padding: 20px; */
+    margin: 0 auto;
+}
+.co-wz>ul>li{
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #f0f0ec;
+    border-bottom: 1px solid #f0f0ec;
+    cursor: pointer;
+}
+.co-wz li:hover{
+    background-color: rgb(246,246,243);
+}
+.co-wz>ul>li>div{
+    overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.co-wz>ul>li>div:hover{
+    text-decoration:underline
+}
+/* 文章标题 */
+.cl-body .b-bt{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+    margin-right: 70px;
+    line-height: 40px;
+    color: #467b96;
+    /* background-color: red; */
+    overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+/*用户名 */
+.b-yh{
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+    margin-right: 38px;
+    line-height: 40px;
+    color: #467b96;
+}
+
+/* 内容*/
+.b-nr{
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+    margin-right: 10px;
+    line-height: 40px;
+    color: black;
+}
+
+/* 邮箱 */
+ .b-yx{
+    width: 13%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+    color: #467b96;
+}
+/* 时间 */
+#clmment .cl-body .b-sj{
+    width: 11%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #467b96; 
+}
+
+
+/* 操作 */
+.cl-body .b-cz{
+    width: 18%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+}
+.cl-body .b-cz>button{
+    width: 50px;
+    height: 25px;
+    margin-right: 13px;
+    margin-top: 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}

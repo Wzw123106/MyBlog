@@ -1,0 +1,42 @@
+#estab{
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    margin-top: 6%;
+}
+#estab>h4{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+#estab>.one{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-weight: bold;
+    margin-top: 17px;
+}
+#estab>.thre{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-weight: bold;
+    margin-top: 17px;
+}
+#estab>button{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: #467b96;
+    color: white;
+    border: none;
+    right:0px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}

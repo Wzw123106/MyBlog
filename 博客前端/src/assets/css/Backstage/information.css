@@ -1,0 +1,399 @@
+
+
+/* PC端 */
+@media screen and (min-width:800px) {
+    .info{
+        width: 100%;
+        height: 700px;
+    }
+    .txjq{
+        width: 40%;
+        height: 100%;
+        position: relative;
+        float: left;
+        /* background-color: red; */
+    }
+    .tx-x{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 13%;
+    }
+    .tx-x h3{
+        text-align: left;
+        font-size: 17px;
+        font-weight:bold;
+        color: black;
+        margin-bottom:10%;
+        margin-left: 25%;
+    }
+    .tx-x h2{
+        text-align: left;
+        font-size: 17px;
+        font-weight:bold;
+        color: black;
+        margin-bottom:3%;
+        margin-left: 25%;
+    }
+    .tx-x p{
+        text-align: left;
+        font-size: 12px;
+        color: #999;
+        margin-left: 25%;
+    }
+    .txk{
+        width: 45%;
+        height: 45%;
+        border-radius: 3%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+    }
+    .txk>img{
+        width: 100%;
+        height: 100%;
+        border-radius: 3%;
+    }
+    .grzl{
+        width: 60%;
+        height: 100%;
+        float: left;
+        /* background-color: pink; */
+    }
+
+    /* ----------- */
+    .xgzl{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 22%;
+        position: relative;
+        font-size: 14px;
+    }
+    .xgzl h2{
+        font-size: 16px;
+        color: black;
+    }
+    .xgzl>ul{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 4%;
+    }
+    .xgzl>h3{
+        text-align: left;
+        font-weight:bold;
+        color: black;
+
+    }
+    .xgzl li{
+        width: 100%;
+        /* height: 20%; */
+        /* background-color: pink; */
+        margin-top: 4.5%;
+        margin-bottom: 6%;
+    }
+    .xgzl li>h4{
+        text-align: left;
+        font-weight:bold;
+        margin-bottom: 1.5%;
+        color: black;
+    }
+    .xgzl li>input{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        left: 0px;
+        outline: none;
+        border: none;
+        border: 1px solid rgb(217, 217, 214);
+    }
+    .xgzl li>h3{
+        margin-top: 9%;
+        margin-left: 0px;
+        font-size: 10px;
+        text-align: left;
+        color: #999;
+        margin-bottom: 6%;
+    }
+    .xgzl li>button{
+        width: 23%;
+        height: 40px;
+        background-color: #3d6a81;
+        margin-left: -75%;
+        border: none;
+        cursor: pointer;
+        color: white;
+        border-radius: 5%;
+    }
+    .xgzl li>h2{
+        text-align: left;
+        font-weight:bold;
+        margin-bottom: 5%;
+    }
+    .sjd{
+        /* background-color: red; */
+        margin-top: -20%;
+    }
+
+}
+
+/* 手机端 */
+@media screen and (max-width:600px) {
+    .info{
+        width: 100%;
+        height: 700px;
+    }
+    .txjq{
+        width: 40%;
+        height: 100%;
+        position: relative;
+        float: left;
+        /* background-color: red; */
+    }
+    .tx-x{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 13%;
+    }
+    .tx-x h3{
+        text-align: left;
+        font-size: 13px;
+        font-weight:bold;
+        color: black;
+        margin-bottom:10%;
+    
+    }
+    .tx-x h2{
+        text-align: left;
+        font-size: 18px;
+        font-weight:bold;
+        color: black;
+        margin-bottom:5%;
+        margin-top: -15%;
+    }
+    .tx-x h4{
+        text-align: left;
+        font-size: 13px;
+        color: #999;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .txk{
+        width: 100%;
+        height: 30%;
+        border-radius: 3%;
+        margin-left: -15%;
+      
+    }
+    .txk>img{
+        width: 70%;
+        height: 70%;
+        border-radius: 3%;
+    }
+    .grzl{
+        width: 60%;
+        height: 100%;
+        float: left;
+        /* background-color: green; */
+        margin-top: -23%;
+    }
+
+    /* ----------- */
+    .xgzl{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 22%;
+        position: relative;
+    }
+    .xgzl>ul{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 4%;
+    }
+    .xgzl>h3{
+        text-align: left;
+        font-weight:bold;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+    .xgzl li{
+        width: 100%;
+        /* height: 20%; */
+        /* background-color: pink; */
+        margin-top: 4%;
+        margin-bottom: 6%;
+    }
+    .xgzl li>h4{
+        text-align: left;
+        font-weight:bold;
+        margin-bottom: 3%;
+        font-size: 13px;
+        color: black;
+    }
+    .xgzl li>input{
+        width: 100%;
+        height: 3%;
+        position: absolute;
+        left: 0px;
+        outline: none
+    }
+    .xgzl li>h3{
+        margin-top: 19%;
+        margin-left: 0px;
+        font-size: 10px;
+        text-align: left;
+        color: #999;
+        margin-bottom: 4%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+          color: black;
+    }
+    .xgzl li>button{
+        width: 50%;
+        height: 30px;
+        background-color: #3d6a81;
+        margin-left: -50%;
+        border: none;
+        cursor: pointer;
+        color: white;
+    }
+    .xgzl li>h2{
+        text-align: left;
+        font-weight:bold;
+        margin-bottom: 5%;
+        color: black;
+    }
+    .sjd{
+        margin-top: -130%;
+    }
+
+
+}
+
+/* 平板端 */
+@media screen and (max-width:779px) and (min-width:600px){
+    .info{
+        width: 100%;
+        height: 700px;
+    }
+    .txjq{
+        width: 40%;
+        height: 100%;
+        position: relative;
+        float: left;
+    }
+    .tx-x{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        top: 13%;
+    }
+    .tx-x h3{
+        text-align: left;
+        font-size: 18px;
+        font-weight:bold;
+        color: black;
+        margin-bottom:10%;
+    
+    }
+    .tx-x h2{
+        text-align: left;
+        font-size: 18px;
+        font-weight:bold;
+        color: black;
+        margin-bottom:3%;
+    }
+    .tx-x h4{
+        text-align: left;
+        font-size: 13px;
+        color: #999;
+    }
+    .txk{
+        width: 83%;
+        height: 50%;
+        border-radius: 3%;
+        margin-bottom: 5%;
+    }
+    .txk>img{
+        width: 100%;
+        height: 100%;
+        border-radius: 3%;
+    }
+    .grzl{
+        width: 60%;
+        height: 100%;
+        float: left;
+        margin-top: -3%;
+    }
+
+    /*  */
+   /* ----------- */
+   .xgzl{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 22%;
+    position: relative;
+}
+.xgzl>ul{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -40%;
+}
+.xgzl>h3{
+    text-align: left;
+    font-weight:bold;
+    color: black;
+    font-size: 18px;
+}
+.xgzl li{
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.xgzl li>h4{
+    text-align: left;
+    font-weight:bold;
+    margin-bottom: 1%;
+    color: black;
+    
+}
+.xgzl li>input{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    left: 0px;
+    border: 1px solid black;
+    outline: none
+}
+.xgzl li>h3{
+    margin-top: 15%;
+    margin-left: 0px;
+    font-size: 10px;
+    text-align: left;
+    color: #999;
+    margin-bottom: 4%;
+    color: black;
+}
+.xgzl li>button{
+    width: 30%;
+    height: 40px;
+    background-color: #3d6a81;
+    margin-left: -70%;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.xgzl li>h2{
+    text-align: left;
+    font-weight:bold;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 18px;
+}
+
+}
